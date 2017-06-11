@@ -2,19 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- user defined css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap css  -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- jquery script dependecy for bootstrap -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- bootstrap script -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- google fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300%7CLora">
+    <!-- awesome fonts -->
     <script src="https://use.fontawesome.com/62db1f9eca.js"></script>
-    <title>Front End Web Dev</title>
 </head>
 <body>
-<section class=" head-container">
+<!-- open head container -->
+<section class="head-container">
+    <!-- open header -->
     <header class="row header-container">
-
         <div class="col-6 logo">
             <img src="images/logo.jpg" id="logo"
                  alt="udacity">
@@ -23,6 +30,7 @@
             <h1>Sundeep Chilukuri</h1>
             <h4>Front-End Web Dev</h4>
         </div>
+        <!-- open bootstrap navigation bar-->
         <nav class="row navbar navbar-default">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse-navbar">
@@ -39,8 +47,8 @@
                     <li class="nav-item"><a class="nav-item" href="#ruby">Project 3</a></li>
                 </ul>
             </div>
-        </nav>
-    </header>
+        </nav> <!-- end bootstrap nav -->
+    </header> <!-- end header -->
     <div class="row body_image">
         <img class="col-12 hero-img" src="images/coding_large.jpg"
              srcset="images/coding_small.jpg 700w, images/coding_medium.jpg 1000w, images/coding_large.jpg 1200w"
@@ -48,8 +56,9 @@
              alt="love coding">
     </div>
     <h2 class="row courses-title" id="featured">Featured Work</h2>
-
+    <!-- open section which contains portfolio projects -->
     <section class="row courses">
+        <!-- project 1 -->
         <div class="col-6 course">
             <a href="http://www.github.com">
                 <img class="course-img" src="images/java_large.jpg"
@@ -61,6 +70,7 @@
             <p>Udacity Java Development Nanodegree.</p>
             <a href="http://www.github.com">www.github.com</a>
         </div>
+        <!-- project 2 -->
         <div class="col-6 course">
             <a href="http://www.github.com">
                 <img class="course-img" src="images/python_large.jpg"
@@ -72,6 +82,7 @@
             <p>Udacity Python Full Stact Development Nanodegree.</p>
             <a href="http://www.github.com">www.github.com</a>
         </div>
+        <!-- project 3-->
         <div class="col-6 course">
             <a href="http://www.github.com">
                 <img class="course-img" src="images/ruby_large.jpg"
@@ -83,9 +94,9 @@
             <p>Udacity Ruby On Rails Development Nanodegree.</p>
             <a href="http://www.github.com">www.github.com</a>
         </div>
-    </section>
+    </section><!-- close section -->
 
-
+    <!-- open footer -->
     <footer class="row col-12" id="contact">
         <ul>
             <li><a href="https://github.com/erikaleigh" target="blank"><i class="fa fa-github-alt fa-2x"></i></a>
@@ -98,8 +109,8 @@
             <li><a href="http://www.erikalleblanc.com" target="blank"><i class="fa fa-home fa-2x"></i></a>
             </li>
         </ul>
-    </footer>
+    </footer> <!-- close footer -->
 
-</section>
+</section> <!-- close head container -->
 </body>
 </html>
